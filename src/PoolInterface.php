@@ -17,11 +17,15 @@ interface PoolInterface extends PoolInfoInterface
 
     /**
      * Gently close every thread in the pool.
+     *
+     * @return bool True on success, or false when for some reason this call has been ignored.
      */
-    public function close(): void;
+    public function close(): bool;
 
     /**
      * Kill every thread in the pool.
+     *
+     * @return bool True on success, or false when for some reason this call has been ignored.
      */
-    public function kill(): void;
+    public function kill(): bool;
 }
