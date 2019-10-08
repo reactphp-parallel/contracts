@@ -4,7 +4,7 @@ namespace WyriHaximus\React\Parallel;
 
 interface LowLevelPoolInterface extends PoolInterface
 {
-    public function acquireGroup(): Group;
+    public function acquireGroup(): GroupInterface;
 
-    public function releaseGroup(Group $group): void;
+    public function releaseGroup(GroupInterface $group): void;
 }
