@@ -10,7 +10,9 @@
         }
     ],
     "require": {
-        "php": "^7.3"
+        "php": "^7.3",
+        "react/promise": "^3.0 || ^2.7",
+        "wyrihaximus/pool-info": "^1.0"
     },
     "config": {
         "platform": {
