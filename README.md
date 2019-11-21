@@ -1,6 +1,5 @@
 # ReactPHP Parallel Contracts
 
-[![Build Status](https://travis-ci.com/WyriHaximus/reactphp-parallel-contracts.png)](https://travis-ci.com/WyriHaximus/reactphp-parallel-contracts)
 [![Latest Stable Version](https://poser.pugx.org/WyriHaximus/react-parallel-contracts/v/stable.png)](https://packagist.org/packages/WyriHaximus/react-parallel-contracts)
 [![Total Downloads](https://poser.pugx.org/WyriHaximus/react-parallel-contracts/downloads.png)](https://packagist.org/packages/WyriHaximus/react-parallel-contracts)
 [![License](https://poser.pugx.org/wyrihaximus/react-parallel-contracts/license.png)](https://packagist.org/packages/wyrihaximus/react-parallel-contracts)
