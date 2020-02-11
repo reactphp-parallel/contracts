@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace WyriHaximus\React\Parallel;
+namespace ReactParallel\Contracts;
 
 interface LowLevelPoolInterface extends PoolInterface
 {

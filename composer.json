@@ -1,5 +1,5 @@
 {
-    "name": "wyrihaximus/react-parallel-contracts",
+    "name": "react-parallel/contracts",
     "description": "Interfaces for ReactPHP ext-parallel related packages",
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WyriHaximus\\React\\Parallel\\": "src/"
+            "ReactParallel\\Contracts\\": "src/"
         }
     }
 }

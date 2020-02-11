@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb01a0374609d961f5c8cf83321554a4",
+    "content-hash": "fd4159af3db6f7747252fcd2950fdd36",
     "packages": [
         {
             "name": "react/promise",
@@ -54,16 +54,16 @@
         },
         {
             "name": "wyrihaximus/constants",
-            "version": "1.2.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-constants.git",
-                "reference": "6510d1376ce15c9cdfb28e04ce5cc54d88214e84"
+                "reference": "8e7f0b2fbdbf9bb27bef31f000fd3bfb199789e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-constants/zipball/6510d1376ce15c9cdfb28e04ce5cc54d88214e84",
-                "reference": "6510d1376ce15c9cdfb28e04ce5cc54d88214e84",
+                "url": "https://api.github.com/repos/WyriHaximus/php-constants/zipball/8e7f0b2fbdbf9bb27bef31f000fd3bfb199789e8",
+                "reference": "8e7f0b2fbdbf9bb27bef31f000fd3bfb199789e8",
                 "shasum": ""
             },
             "require": {
@@ -73,6 +73,7 @@
             "autoload": {
                 "files": [
                     "src/Boolean/constants_include.php",
+                    "src/HTTPStatusCodes/constants_include.php",
                     "src/Numeric/constants_include.php"
                 ]
             },
@@ -88,7 +89,7 @@
                 }
             ],
             "description": "Collection of constants for PHP",
-            "time": "2019-09-27T06:23:19+00:00"
+            "time": "2019-12-25T11:19:19+00:00"
         },
         {
             "name": "wyrihaximus/iterator-or-array-to-array",

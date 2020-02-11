@@ -1,8 +1,8 @@
 # ReactPHP Parallel Contracts
 
-[![Latest Stable Version](https://poser.pugx.org/WyriHaximus/react-parallel-contracts/v/stable.png)](https://packagist.org/packages/WyriHaximus/react-parallel-contracts)
-[![Total Downloads](https://poser.pugx.org/WyriHaximus/react-parallel-contracts/downloads.png)](https://packagist.org/packages/WyriHaximus/react-parallel-contracts)
-[![License](https://poser.pugx.org/wyrihaximus/react-parallel-contracts/license.png)](https://packagist.org/packages/wyrihaximus/react-parallel-contracts)
+[![Latest Stable Version](https://poser.pugx.org/react-parallel/contracts/v/stable.png)](https://packagist.org/packages/react-parallel/contracts)
+[![Total Downloads](https://poser.pugx.org/react-parallel/contracts/downloads.png)](https://packagist.org/packages/react-parallel/contracts)
+[![License](https://poser.pugx.org/react-parallel/contracts/license.png)](https://packagist.org/packages/react-parallel/contracts)
 
 Interfaces for ReactPHP ext-parallel related packages
 
@@ -11,7 +11,7 @@ Interfaces for ReactPHP ext-parallel related packages
 To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `~`.
 
 ```
-composer require wyrihaximus/react-parallel-contracts 
+composer require react-parallel/contracts 
 ```
 
 ## License ##
