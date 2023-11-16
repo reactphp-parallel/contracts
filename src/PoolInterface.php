@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace ReactParallel\Contracts;
 
@@ -9,9 +11,12 @@ use WyriHaximus\PoolInfo\PoolInfoInterface;
 interface PoolInterface extends PoolInfoInterface
 {
     /**
-     * @param Closure $callable
-     * @param mixed[] $args
-     * @return PromiseInterface
+     * @param (Closure():(PromiseInterface<T>|T)) $callable
+     * @param array<mixed>                        $args
+     *
+     * @return PromiseInterface<T>
+     *
+     * @template T
      */
     public function run(Closure $callable, array $args = []): PromiseInterface;
 

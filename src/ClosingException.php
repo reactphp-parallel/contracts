@@ -1,7 +1,11 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace ReactParallel\Contracts;
 
-final class ClosingException extends \Exception
+use Exception;
+
+final class ClosingException extends Exception
 {
 }
