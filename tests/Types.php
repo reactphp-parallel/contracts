@@ -8,10 +8,10 @@ use function PHPStan\Testing\assertType;
 
 $pool = new MockPool();
 
-assertType('React\Promise\PromiseInterface<bool>', $pool->run(static function (): bool {
+assertType('bool', $pool->run(static function (): bool {
     return true;
 }));
 
-assertType('React\Promise\PromiseInterface<bool|int>', $pool->run(static function (): bool|int {
+assertType('bool|int', $pool->run(static function (): bool|int {
     return time() % 2 !== 0 ? true : time();
 }));

@@ -5,20 +5,19 @@ declare(strict_types=1);
 namespace ReactParallel\Contracts;
 
 use Closure;
-use React\Promise\PromiseInterface;
 use WyriHaximus\PoolInfo\PoolInfoInterface;
 
 interface PoolInterface extends PoolInfoInterface
 {
     /**
-     * @param (Closure():(PromiseInterface<T>|T)) $callable
-     * @param array<mixed>                        $args
+     * @param (Closure():T) $callable
+     * @param array<mixed>  $args
      *
-     * @return PromiseInterface<T>
+     * @return T
      *
      * @template T
      */
-    public function run(Closure $callable, array $args = []): PromiseInterface;
+    public function run(Closure $callable, array $args = []): mixed;
 
     /**
      * Gently close every thread in the pool.
