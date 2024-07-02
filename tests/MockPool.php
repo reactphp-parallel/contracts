@@ -5,23 +5,20 @@ declare(strict_types=1);
 namespace ReactParallel\Tests\Contracts;
 
 use Closure;
-use WyriHaximus\PoolInfo\PoolInfoInterface;
+use ReactParallel\Contracts\PoolInterface;
 
-final class MockPool implements PoolInfoInterface
+final class MockPool implements PoolInterface
 {
-    /** @return iterable<string, int> */
+    /**
+     * {@inheritDoc}
+     */
     public function info(): iterable
     {
         yield from [];
     }
 
     /**
-     * @param (Closure():T) $callable
-     * @param array<mixed>  $args
-     *
-     * @return T
-     *
-     * @template T
+     * {@inheritDoc}
      */
     public function run(Closure $callable, array $args = []): mixed
     {
