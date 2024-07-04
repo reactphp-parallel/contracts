@@ -11,10 +11,10 @@
     ],
     "require": {
         "php": "^8.2",
-        "wyrihaximus/pool-info": "^2"
+        "wyrihaximus/pool-info": "^2.0.0"
     },
     "require-dev": {
-        "wyrihaximus/async-test-utilities": "^7.2 || ^8.0"
+        "wyrihaximus/async-test-utilities": "^8.0.5"
     },
     "autoload": {
         "psr-4": {
