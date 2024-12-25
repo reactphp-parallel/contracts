@@ -1,8 +1,8 @@
 # ReactPHP Parallel Contracts
 
-[![Latest Stable Version](https://poser.pugx.org/react-parallel/contracts/v/stable.png)](https://packagist.org/packages/react-parallel/contracts)
-[![Total Downloads](https://poser.pugx.org/react-parallel/contracts/downloads.png)](https://packagist.org/packages/react-parallel/contracts)
-[![License](https://poser.pugx.org/react-parallel/contracts/license.png)](https://packagist.org/packages/react-parallel/contracts)
+[![Latest Stable Version](https://poser.pugx.org/react-parallel/contracts/v)](https://packagist.org/packages/react-parallel/contracts)
+[![Total Downloads](https://poser.pugx.org/react-parallel/contracts/downloads)](https://packagist.org/packages/react-parallel/contracts)
+[![License](https://poser.pugx.org/react-parallel/contracts/license)](https://packagist.org/packages/react-parallel/contracts)
 
 Interfaces for ReactPHP ext-parallel related packages
 
@@ -11,12 +11,12 @@ Interfaces for ReactPHP ext-parallel related packages
 To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `~`.
 
 ```
-composer require react-parallel/contracts 
+composer require react-parallel/contracts
 ```
 
 ## License ##
 
-Copyright 2019 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
+Copyright 2025 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
