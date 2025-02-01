@@ -22,7 +22,7 @@ else
 		-v "`pwd`:`pwd`" \
 		-v "${COMPOSER_CACHE_DIR}:${COMPOSER_CONTAINER_CACHE_DIR}" \
 		-w "`pwd`" \
-		"ghcr.io/wyrihaximusnet/php:${PHP_VERSION}-nts-alpine${SLIM_DOCKER_IMAGE}-dev"
+		"ghcr.io/wyrihaximusnet/php:${PHP_VERSION}-zts-alpine${SLIM_DOCKER_IMAGE}-dev"
 endif
 
 ifneq (,$(findstring icrosoft,$(shell cat /proc/version)))

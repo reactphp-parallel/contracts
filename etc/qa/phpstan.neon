@@ -1,4 +1,11 @@
 parameters:
+	ignoreErrors:
+		-
+			message: '#sleep blocks the event loop#'
+			path: ../../tests/MockPool.php
+		-
+			message: '#sleep blocks the event loop#'
+			path: ../../tests/Types.php
 	ergebnis:
 		noExtends:
 			classesAllowedToBeExtended:
@@ -6,3 +13,4 @@ parameters:
 
 includes:
 	- ../../vendor/wyrihaximus/async-test-utilities/rules.neon
+	- ../../vendor/react-parallel/stubs/extension.neon
